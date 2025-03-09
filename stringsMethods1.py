@@ -29,6 +29,15 @@ print(len(a))
 #print(a.casefold())
 
 #to write variable inside a string
-x = "he is going to {} for holy festival"
-b = "Patna"
-print(x.format(b))
+# x = "he is going to {} for holy festival"
+# b = "Patna"
+# print(x.format(b))
+
+y = "My name is {} and my age is {} years old"
+name = "Rohit"
+age = 20
+print(y.format(name, age))
+
+#center method means center the given string
+
+print(name.center(20,  "*"))
