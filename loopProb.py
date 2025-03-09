@@ -65,3 +65,75 @@ print(x)
 
 y = a.upper()
 print(y)
+
+#Write a program to convert the following string into a title case
+z = a.title()  #title means first letter capital
+print(z)
+
+#Write a program to find the index number of "Bharat"
+print(a.index("Bharat"))
+
+#write a pattern
+# for i in range(1,6):  
+#     for j in range(1, i+1):
+#         print("*", end=" ")
+#     print()
+    
+# for i in range(1,6): #rows
+#     for j in range(1, i+1): #columns
+#         print(j, end = " ")
+#     print()
+
+# for i in range(1,6): #rows
+#     for j in range(1, i+1): #columns
+#         print(i, end = " ")
+#     print()
+    
+# for i in range(1,6): #rows
+#     for j in range(6, i, -1): #columns
+#         print(j, end = " ")
+#     print()
+    
+# for i in range(1,6): #rows
+#     for j in range(6, i, -1): #columns
+#         print(i, end = " ")
+#     print()
+    
+# for i in range(1,6): #rows
+#     for j in range(4, i, -1): #columns
+#         print("", end = " ")
+#     for k in range(1, i+1): #columns
+#         print(k, end = " ")
+#     print()
+    
+# for i in range(1,6): #rows
+#     for j in range(5, i, -1): #columns
+#         print("", end = " ")
+#     for k in range(i): #columns
+#         print("*", end = " ")
+#     print()
+
+# for i in range(1,6): #rows
+#     for j in range(i, 0, -1): #columns
+#         print(j, end = " ")
+    
+#     print()
+    
+# for i in range(1,6): #rows
+#     for j in range(1, i+1): #columns
+#         print("*", end = " ")
+#     print()
+# for i in range(5, 0, -1): #rows
+#     for k in range(0, i-1): #columns
+#         print("*", end = " ")
+#     print()
+
+for i in range(1,11): #rows
+    for j in range(1,11): #columns
+        print(i*j, end = "  ")
+    print()
+    
+for i in range(1,11): #rows
+    for j in range(1, i+1): #columns
+        print(i*j, end = "  ")
+    print()
