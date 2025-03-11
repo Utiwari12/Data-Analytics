@@ -6,12 +6,16 @@
 #2. Write a program to check if a string contans only digits
 # a = input("Enter any string here:")
 # b = a.isdigit()
+# if b == True:
+   # print("String contains only digits")
+# else:
+   # print("String does not contain only digits")
 # print(b)
 
 #3. Write a program to chech if a string is palindrome
 # a = input("Enter any string here:")
 # b = a.lower()
-# c = b[::-1]
+# c = b[::-1]   #reverse
 # if b == c:
 #     print("String is palindrome")
 # else:
@@ -32,7 +36,11 @@
 
 #6. Write a program to check if every word in a string starts with a capital letter
 # a = input("Enter any string here:")
-# b = a.title()
+# b = a.istitle()
+# if b == True:
+#     print("Every word in a string starts with a capital letter")
+# else:
+#     print("Every word in a string does not start with a capital letter")
 # print(b)
 
 
