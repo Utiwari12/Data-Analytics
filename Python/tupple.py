@@ -1,3 +1,4 @@
+#tuple is an imutable data type
 # a = "apple", "banana", "cherry", 2, 3, 4.5
 # print(a, type(a))
 
