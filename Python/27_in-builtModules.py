@@ -30,3 +30,13 @@ import math
 # eqc = math.pow(2, 3)
 # print(eqc)
 
+#absolute value
+# x = -10
+# print(abs(x))
+
+#floor value
+x = 10.5
+print(math.floor(x))
+
+k = math.ceil(x)
+print(k)
